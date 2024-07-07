@@ -17,7 +17,7 @@ namespace Nokia3100
             }
             catch (Exception ex)
             {
-                result = $"Error: {ex.Message}";
+                result = $"\nError: {ex.Message}\n\n{usageInfo()}";
             }
 
             Console.WriteLine(result);
@@ -29,6 +29,31 @@ namespace Nokia3100
             {
                 throw new ArgumentException("No argument provided");
             }
+        }
+
+        private static string usageInfo()
+        {
+            #region Usage info
+            return @"
+    
+    Sample application to demontrate the usage of the PhonePadLib.
+
+    Usage:
+
+        nokia3100.exe <sequence>
+
+
+    Or:
+
+        dotnet run -c Release -- <sequence>
+
+
+    Where:
+
+        <sequence> should contain only digits, spaces, * and # as a final character; all after the # will be ignored.
+
+            ";
+            #endregion
         }
     }
 }

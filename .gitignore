@@ -1,3 +1,7 @@
 ﻿/.vs
+/bin/Debug/net8.0
+/obj
 /nokia3100/bin
+/nokia3100/obj/Debug/net8.0
+/nokia3100/obj/Release/net8.0
 /nokia3100/obj
