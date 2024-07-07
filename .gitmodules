@@ -1,0 +1,3 @@
+[submodule "PhonePadLib"]
+	path = PhonePadLib
+	url = git@github.com:marinazzio/PhonePadLib.git
