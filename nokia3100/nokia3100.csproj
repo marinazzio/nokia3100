@@ -7,10 +7,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
+  <ItemGroup Condition="'$(OS)' == 'Windows_NT'">
     <Reference Include="PhonePadTranslation">
       <HintPath>..\..\PhonePadLib\PhonePadTranslation\bin\Release\net8.0\PhonePadTranslation.dll</HintPath>
     </Reference>
   </ItemGroup>
 
+  <ItemGroup Condition="'$(OS)' != 'Windows_NT'">
+	<Reference Include="PhonePadTranslation">
+	  <HintPath>../PhonePadLib/PhonePadTranslation/bin/Release/net8.0/PhonePadTranslation.dll</HintPath>
+	</Reference>
+  </ItemGroup>
 </Project>
