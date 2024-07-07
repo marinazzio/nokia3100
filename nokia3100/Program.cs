@@ -10,7 +10,7 @@ namespace Nokia3100
         {
             string result;
 
-            try 
+            try
             {
                 validateArguments(args);
                 result = padTranslator.OldPhonePad(args[0]);

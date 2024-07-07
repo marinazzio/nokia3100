@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <Reference Include="PhonePadTranslation">
-      <HintPath>..\PhonePadLib\PhonePadTranslation\bin\Release\net8.0\PhonePadTranslation.dll</HintPath>
+      <HintPath>..\..\PhonePadLib\PhonePadTranslation\bin\Release\net8.0\PhonePadTranslation.dll</HintPath>
     </Reference>
   </ItemGroup>
 
