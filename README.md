@@ -30,11 +30,11 @@ Build the application:
 dotnet build PhonePadLib/PhonePadTranslation/PhonePadTranslation.csproj --configuration Release
 
 # then build the app
-dotnet build nokia3100.csproj --configuration Release
+dotnet build nokia3100/nokia3100.csproj --configuration Release
 ```
 
 Run the application:
 
 ```shell
-dotnet run -- "8 88777444666*664#"
+dotnet run --project .\nokia3100 -- "8 88777444666*664#"
 ```
