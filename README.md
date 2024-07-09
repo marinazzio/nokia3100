@@ -1,6 +1,6 @@
 ## Overview
 
-This is a sample application to demonstrate the usage of [PhonePadLib](marinazzio/PhonePadLib) library
+This is a sample application to demonstrate the usage of [PhonePadLib](https://github.com/marinazzio/PhonePadLib) library
 
 ## How to use
 
